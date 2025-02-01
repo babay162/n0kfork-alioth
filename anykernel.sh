@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=N0Kernel Fork by Re-Noroi & EmanuelCN
+kernel.string=FakeDreamer by Re-Noroi
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -35,12 +35,11 @@ set_perm_recursive 0 0 750 750 $ramdisk/*;
 
 # kernel naming scene
 ui_print " ";
-ui_print "Kernel Naming : "$ZIPFILE" ";
-ui_print " ";
 
 case "$ZIPFILE" in
   *miui*|*MIUI*)
     ui_print "MIUI/HyperOS Detected,";
+    ui_print "Using MIUI DTBO... ";
     mv *-miui-dtbo.img $home/dtbo.img;
     rm *-aosp-dtbo.img;
   ;;

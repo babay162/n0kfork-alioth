@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=FakeDreamer by Re-Noroi
+kernel.string=NAPI-overissue by babay and Re-Noroi
 do.devicecheck=1
 do.modules=0
 do.systemless=1

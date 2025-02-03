@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=NAPI-overissue by Babay, Re-Noroi & Emanuel
+kernel.string=NAPI-overissue by Babay, fork form Re-Noroi & EmanuelCN
 do.devicecheck=1
 do.modules=0
 do.systemless=1
